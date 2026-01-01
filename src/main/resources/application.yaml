@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Spring MVC homework
+
+  h2:
+    console:
+      enabled: true
+
+  datasource:
+    url: jdbc:h2:file:D:\Learning\Coding Shuttle\Week 2\homework\db
+    username: abhijeetDB
+    password: Abhijeet123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
